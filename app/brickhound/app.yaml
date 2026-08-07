@@ -17,9 +17,9 @@ env:
   - name: "PORT"
     value: "8000"
   - name: "BRICKHOUND_SCHEMA"
-    valueFrom: "analysis_schema_name"
+    valueFrom: "security_analysis_tool.security_analysis"
   - name: "WAREHOUSE_ID"
-    valueFrom: "sql-warehouse-id"
+    valueFrom: "173cc83ea9bbcdbb"
 
 # Resource requirements
 resources:
