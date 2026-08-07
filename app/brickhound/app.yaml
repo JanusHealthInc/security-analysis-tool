@@ -15,7 +15,7 @@ config:
 # BRICKHOUND_SCHEMA: "security_catalog.security_analysis"
 env:
   - name: "PORT"
-    value: "8080"
+    value: "8000"
   - name: "BRICKHOUND_SCHEMA"
     valueFrom: "security_analysis_tool.security_analysis"
   - name: "WAREHOUSE_ID"
