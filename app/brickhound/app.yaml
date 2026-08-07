@@ -16,7 +16,7 @@ config:
 env:
   - name: "PORT"
     value: "8000"
-  - name: "security_analysis"
+  - name: "security_analysis_tool.security_analysis"
     valueFrom: "analysis_schema_name"
   - name: "173cc83ea9bbcdbb"
     valueFrom: "sql-warehouse-id"
