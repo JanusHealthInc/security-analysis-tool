@@ -17,7 +17,7 @@ env:
   - name: "PORT"
     value: "8000"
   - name: "BRICKHOUND_SCHEMA"
-    valueFrom: "security_analysis"
+    valueFrom: "security_analysis_tool.security_analysis"
   - name: "WAREHOUSE_ID"
     valueFrom: "173cc83ea9bbcdbb"
 
