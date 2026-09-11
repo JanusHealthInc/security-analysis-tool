@@ -20,6 +20,7 @@ env:
     value: "security_analysis_tool.security_analysis"
   - name: "WAREHOUSE_ID"
     valueFrom: "sql-warehouse"
+  
 
 # Resource requirements
 resources:
